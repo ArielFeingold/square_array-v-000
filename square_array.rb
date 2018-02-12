@@ -1,10 +1,8 @@
-require 'pry'
 
-def square_array(numbers)
+def square_array(number_array)
   square_array = []
-    numbers.each do |number|
-        squre = numbers * number
-      square_array.push(square)
+    numbers_array.each do |number|
+      square_array.push(number * number)
       binding.pry
   end
   return square_array
