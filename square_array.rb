@@ -3,6 +3,6 @@ def square_array(numbers)
       new_array = []
       squre = numbers**
     new_array.push(square)
+    new_array
   end
-  new_array
 end
