@@ -1,5 +1,5 @@
 
-def square_array(number_array)
+def square_array(numbers_array)
   square_array = []
     numbers_array.each do |number|
       square_array.push(number * number)
