@@ -3,5 +3,4 @@ def square_array(numbers)
     new_array =  []
     new_array << number**
   end
-  new_array
 end
