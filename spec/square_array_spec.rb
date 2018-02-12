@@ -1,3 +1,6 @@
+require 'pry'
+require './lib/pry_debugging.rb'
+
 describe '#square_array' do
 
   it 'does not call on collect/map or inject' do
